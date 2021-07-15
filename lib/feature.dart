@@ -1,3 +1,8 @@
+// import 'package:appoint/heart.dart/main.dart';
+// import 'package:appoint/heart/homePage.dart';
+import 'package:appoint/blood_pressure/main.dart';
+import 'package:appoint/firestore-data/searchList.dart';
+import 'package:appoint/heart/homePage.dart';
 import 'package:appoint/macro/pages/home_page.dart';
 import 'package:appoint/macro/pages/main.dart';
 import 'package:appoint/main.dart';
@@ -10,6 +15,10 @@ import 'package:appoint/screens/disease.dart';
 import 'package:appoint/screens/diseasedetail.dart';
 import 'package:appoint/screens/web_page.dart';
 import 'package:appoint/model/more_feature.dart';
+
+import 'call/emergency.dart';
+
+// import 'heart/main.dart';
 
 class Feature extends StatelessWidget {
   @override
@@ -40,17 +49,22 @@ class Feature extends StatelessWidget {
                 index == 0
                     ? Navigator.push(context,
                         MaterialPageRoute(builder: (BuildContext context) {
-                        return MyAppmedi();
+                        return Emergency();
                       }))
-                    : (index == 1
+                    : ((index == 1
+                        ? Navigator.push(context,
+                            MaterialPageRoute(builder: (BuildContext context) {
+                            return MyBlood();
+                          }))
+                        :(index == 2
                         ? Navigator.push(context,
                             MaterialPageRoute(builder: (BuildContext context) {
                             return MyAppcro();
                           }))
                         : Navigator.push(context,
                             MaterialPageRoute(builder: (BuildContext context) {
-                            return MyAppcro();
-                          })));
+                            return MyAppmedi();
+                          })))));
                 // if (index == 0) {
                 //   return Navigator.push(context,
                 //       MaterialPageRoute(builder: (BuildContext context) {

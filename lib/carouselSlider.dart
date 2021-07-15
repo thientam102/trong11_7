@@ -1,13 +1,14 @@
-import 'package:appoint/blood_pressure/main.dart';
-import 'package:appoint/macro/pages/home_page.dart';
-import 'package:appoint/macro/pages/main.dart';
-import 'package:appoint/main.dart';
+// import 'package:appoint/blood_pressure/main.dart';
+import 'package:appoint/heart/homePage.dart';
+// import 'package:appoint/macro/pages/home_page.dart';
+// import 'package:appoint/macro/pages/main.dart';
+// import 'package:appoint/main.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:appoint/model/bannerModel.dart';
-import 'package:appoint/screens/disease.dart';
-import 'package:appoint/screens/diseasedetail.dart';
+// import 'package:appoint/screens/disease.dart';
+// import 'package:appoint/screens/diseasedetail.dart';
 import 'package:appoint/screens/web_page.dart';
 
 class Carouselslider extends StatelessWidget {
@@ -39,7 +40,7 @@ class Carouselslider extends StatelessWidget {
                 index == 0
                     ? Navigator.push(context,
                         MaterialPageRoute(builder: (BuildContext context) {
-                        return MyBlood();
+                        return HeartBeat();
                       }))
                     : Navigator.push(context,
                         MaterialPageRoute(builder: (BuildContext context) {

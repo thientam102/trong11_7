@@ -83,16 +83,16 @@ class _HomePageState extends State<HomePage> {
                 //width: MediaQuery.of(context).size.width / 1.3,
                 alignment: Alignment.center,
                 child: Text(
-                  _message,
+                  'Stay home - Stay safe',
                   style: GoogleFonts.lato(
                     color: Colors.black54,
                     fontSize: 20,
-                    fontWeight: FontWeight.w400,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               SizedBox(
-                width: 55,
+                width: 35,
               ),
               IconButton(
                   icon: Icon(
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                     child: Text(
                       "Hello " + user.displayName,
                       style: GoogleFonts.lato(
-                        fontSize: 20,
+                        fontSize: 30,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -150,9 +150,9 @@ class _HomePageState extends State<HomePage> {
                     alignment: Alignment.centerLeft,
                     padding: EdgeInsets.only(left: 20, bottom: 25),
                     child: Text(
-                      "Have a nice day!",
+                      _message,
                       style: GoogleFonts.lato(
-                        fontSize: 35,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue[400],
                       ),

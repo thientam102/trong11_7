@@ -10,24 +10,32 @@ class Card {
 
 List<Card> cardmore = [
   new Card(
-      "Meditation",
+      "Call Doctor",
       [
-        Color(0xffc2f0c2),
-        Color(0xFF85e085),
+        Color(0xffDEE0A5),
+        Color(0xffE1E562),
       ],
-      "assets/meditation_1.png"),
+      "assets/online_doctor.png"),
+  new Card(
+      "Blood Pressure",
+      [
+        Color(0xffb6d4fa),
+        Color(0xff66b3ff),
+      ],
+      "assets/blood.png"),
+  
   new Card(
       "BMI",
       [
         Color(0xffffe6ff),
         Color(0Xffff99ff),
       ],
-      "assets/medicine.png"),
+      "assets/bmi.png"),
   new Card(
-      "Emergency call",
+      "Meditation",
       [
-        Color(0xffffd6cc),
-        Color(0xffff8080),
+        Color(0xffc2f0c2),
+        Color(0xFF85e085),
       ],
-      "assets/call_1.png"),
+      "assets/meditation_1.png"),
 ];

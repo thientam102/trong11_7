@@ -98,7 +98,7 @@ class _UserProfileState extends State<About> {
                           color: const Color(0xff7c94b6),
                           image: const DecorationImage(
                             image: NetworkImage(
-                                'https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-0/p600x600/71577599_2415684162032383_1656605298799935488_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=e3f864&_nc_ohc=S0z1O1qhGN8AX-CwsRB&_nc_oc=AQkde-K2xCRkqTz_3VCxGRjdW-mtN017U47Mg38SHL2t-UgTBAVhJUuMs1NHxDL41Jc&_nc_ht=scontent-hkg4-2.xx&tp=6&oh=13f16b98c46a7a82c04fb1e5484062b2&oe=60EB2735'),
+                                'https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-0/p600x600/71577599_2415684162032383_1656605298799935488_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=e3f864&_nc_ohc=qD9h1p6N5eoAX_F0o6p&_nc_oc=AQmusMKcDj4x_bDEf0asThVlXJbCvzgndfpKzXNjn9bQg30uudgiTU6vDCqCiwqIeWkoM7hRolIlV3JT3URemzb3&_nc_ht=scontent-hkg4-2.xx&oh=d384d399ebae4cd93f12043cbd76214f&oe=60F31035'),
                             fit: BoxFit.fill,
                           ),
                           border: Border.all(

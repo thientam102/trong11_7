@@ -27,7 +27,7 @@ class _TopRatedListState extends State<TopRatedList> {
             scrollDirection: Axis.vertical,
             physics: ClampingScrollPhysics(),
             shrinkWrap: true,
-            itemCount: 9,
+            itemCount: 8,
             itemBuilder: (context, index) {
               DocumentSnapshot hospitali = snapshot.data.docs[index];
               return Padding(

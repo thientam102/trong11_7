@@ -10,12 +10,12 @@ class BannerModel {
 
 List<BannerModel> bannerCards = [
   new BannerModel(
-      "Blood Pressure",
+      "HeartBeat",
       [
-        Color(0xffb6d4fa),
-        Color(0xff66b3ff),
+        Color(0xffffd6cc),
+        Color(0xffff8080),
       ],
-      "assets/healthbmi.png"),
+      "assets/heartbeat.png"),
   new BannerModel(
       "Covid-19",
       [
